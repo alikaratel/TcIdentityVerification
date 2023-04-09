@@ -43,7 +43,7 @@ class TCDogrulama:
         return True
 
 a = TCDogrulama()
-data = a.tcKimlik('tcggir', 'adgir', 'soyadgir', 'aygir', 'gungir', 'yilgir')
+data = a.tcKimlik('tckgir', 'adgir', 'soyadgir', 'aygir', 'gungir', 'yilgir')
 
 with open('output.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)
